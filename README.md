@@ -38,8 +38,8 @@ This is the MVP wireframe validate with stakeholder:
 |           wednesday 4/11           |
 +------------------------------------+
 | [GOAL (X)]  [GOAL (X)]  (FF)  [+]  |
-| [GOAL (X)]  [GOAL (X)]  (MM)  [+]  |
-| [GOAL (X)]  [GOAL (X)]  (JJ)  [+]  |
+| [GOAL (X)]  [GOAL (X)]  (MM)  [ ]  |
+| [GOAL (X)]  [GOAL (X)]  (JJ)  [ ]  |
 |                                    |
 | ☑️ GOAL (X)                        |
 | ☑️ GOAL (X)                        |
