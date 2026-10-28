@@ -8,6 +8,11 @@ Instead of managing granular tasks, the architecture maps each business day as a
 
 The system features a real-time computation engine that tracks completion rates and time-bound compliance, programmatically triggering financial incentives and bonus eligibility as soon as the daily objective is marked as completed through the fulfillment of its activities (goals).
 
+REQS:
+-
+-
+-
+
 This is the MVP wireframe validate with stakeholder:
 
 #### DESKTOP
