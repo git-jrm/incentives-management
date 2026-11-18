@@ -11,7 +11,7 @@ The system features a real-time computation engine that tracks completion rates 
 REQS:
 1.-
 2.-
-3.-
+3.- una zona donde hayan actividades ´para elegir´ (que se pueda elegir ´libre´? porqupe?)
 
 This is the MVP wireframe validate with stakeholder:
 
