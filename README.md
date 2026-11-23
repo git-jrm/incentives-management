@@ -1,44 +1,28 @@
 # Gestión de Incentivos y Actividades
 
 ## Contexto
-Modernización de un aplicativo *legacy* (gestión de incentivos) actualmente en producción para saldar la deuda técnica acumulada y habilitar nuevas funcionalidades solicitadas por el negocio, como mejorar la visibilidad al equipo integrando métricas visuales de cumplimiento en tiempo real para la trazabilidad.
+Modernización de un aplicativo *legacy* (gestión de incentivos) actualmente en producción para saldar la deuda técnica acumulada y habilitar nuevas funcionalidades solicitadas por el negocio, como mejorar la visibilidad al equipo integrando métricas visuales de cumplimiento en tiempo real mejorando la trazabilidad.
 
 El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniendo la continuidad operativa, mejorando la mantenibilidad e integración del sistema a un proceso eficiente de mejora continua (CI/CD).
 
 ## Limitaciones sistema legacy
+* **Entorno aislado:** Al funcionar en un entorno local cerrado sin acceso remoto, impide que el administrador supervise el estado y avance de las actividades en tiempo real desde internet.
 * **Falta de trazabilidad en omisiones:** El sistema actual solo persiste las actividades ejecutadas, sin dejar registro de las tareas planificadas que no se realizaron.
-* **Operación aislada (sin acceso remoto):** Al funcionar en un entorno local cerrado, impide que el administrador supervise el estado y avance de las actividades en tiempo real desde internet.
-* **Ausencia de métricas de cumplimiento:** Carece de indicadores visuales rápidos que permitan evaluar si las tareas se ejecutaron dentro de los bloques horarios esperados o el rendimiento general por día.
-
-## Limitaciones sistema legacy
-* **Entorno aislado:** Funciona de forma local sin conexión; el nuevo sistema requiere acceso remoto por internet con autenticación para el administrador.
-* **Sin registro de omisiones:** Solo guarda las actividades ejecutadas al presionar el botón, pero **no registra las actividades no realizadas**. El nuevo sistema debe contrastar lo planificado vs. lo ejecutado para mostrar las "❌" en días pasados y calcular la nota diaria.
+* **Ausencia de métricas de cumplimiento:** Carece de indicadores visuales rápidos que permitan evaluar el rendimiento general por día y si las tareas se ejecutaron dentro de los bloques horarios esperados.
 
 ## Inventario de Funcionalidades (Alcance)
 
 | ID / Funcionalidad | Descripción / Regla de negocio clave | Legacy | Nuevo |
 | :--- | :--- | :--- | :--- |
 | **F-01** / Planificación semanal | Permite ingresar actividades, indicando los días de la semana y bloques de horario con sus valores (ej. 8=100,9=80,10=60). | **Sí** | Sí |
-| **F-02** / Dashboard semanal | Muestra el total del mes anterior por colaborador y una tabla con la semana actual. | **Sí** | Sí |
-| **F-03** / Componente día | Fecha pasada actividades planificadas registradas, fecha actual actividades planificadas no registradas y registradas, fecha futura actividades planificadas
+| **F-02** / Dashboard semanal | Tabla semana actual y tabla resumen mes anterior por colaborador. | **Sí** | Sí |
+| **F-03** / Componente día | Actividades registradas (fecha pasada), actividades pendientes (botones) y registradas (fecha actual) ó actividades planificadas (fecha futura).
+| **F-04** / Ejecución de actividad | El usuario presiona el botón de la actividad al terminarla y esta pasa al listado de registradas del día actual. | **Sí** | Sí |
+| **F-00** / Resumen mensual | Mostrar en la parte superior del dashboard los valores acumulados por usuario correspondientes al mes pasado. | **Sí** | Sí |
+| **F-00** / Acceso web administrador | Permitir al administrador consultar el sistema de forma remota a través de internet (requiere autenticación). | **No** | Sí |
+| **F-00** / Estado visual por tarea | Mostrar un emoji junto a cada tarea: en tiempo, fuera de tiempo, o "❌" para actividades no realizadas en días pasados. | **No** | Sí |
+| **F-00** / Resumen diario con nota | Mostrar en la parte superior un emoji por cada día transcurrido a modo de "nota" o calificación general del día. | **No** | Sí |
 
-Tabla con los días de la semana actual: muestra actividades para cada día realizadas en días previos y botones de tareas planificadas para el día de hoy. | **Sí** | Sí |
-
-| **F-03** / Ejecución de actividad | El usuario presiona el botón de la actividad al terminarla y esta pasa al listado de realizadas del día actual. | **Sí** | Sí |
-| **F-04** / Resumen mensual | Mostrar en la parte superior del dashboard los valores acumulados por usuario correspondientes al mes pasado. | **Sí** | Sí |
-| **F-05** / Acceso web administrador | Permitir al administrador consultar el sistema de forma remota a través de internet (requiere autenticación). | **No** | Sí |
-| **F-06** / Estado visual por tarea | Mostrar un emoji junto a cada tarea: en tiempo, fuera de tiempo, o "❌" para actividades no realizadas en días pasados. | **No** | Sí |
-| **F-07** / Resumen diario con nota | Mostrar en la parte superior un emoji por cada día transcurrido a modo de "nota" o calificación general del día. | **No** | Sí |
-
-## Diseño Técnico (Borrador)
-* **Frontend:** [Por definir]
-* **Backend:** [Por definir]
-* **Base de Datos:** [Por definir]
-* **Seguridad:** [Ej. Login simple con usuario/contraseña para el administrador]
-
-## Cómo levantar el proyecto
-*(Completar cuando inicie el desarrollo)*
----
 
 # Incentives Management
 
