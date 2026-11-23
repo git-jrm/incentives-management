@@ -1,3 +1,30 @@
+# Sistema de Gestión y Seguimiento de Actividades
+
+## Contexto
+Evolución de un sistema actualmente en producción (hoy funciona de forma aislada/local) hacia una versión web accesible desde internet. El objetivo es mantener intacta la operación diaria actual y sumar visibilidad remota para el administrador mediante indicadores visuales de cumplimiento.
+
+## Inventario de Funcionalidades (Alcance)
+
+| ID | Funcionalidad | Tipo | Descripción / Regla de negocio clave | Estado |
+| :--- | :--- | :--- | :--- | :--- |
+| F-01 | Planificación semanal | **Actual** | Ingresar actividades recurrentes especificando días de la semana a repetir y valores por bloque horario. | Pendiente |
+| F-02 | Dashboard semanal | **Actual** | Vista de la semana actual: muestra actividades realizadas en días previos y botones de tareas planificadas para el día de hoy. | Pendiente |
+| F-03 | Ejecución de actividad | **Actual** | El usuario presiona el botón de la actividad al terminarla y esta pasa al listado de realizadas del día actual. | Pendiente |
+| F-04 | Resumen mensual | **Actual** | Mostrar en la parte superior del dashboard los valores acumulados por usuario correspondientes al mes pasado. | Pendiente |
+| F-05 | Acceso web administrador | **Nueva** | Permitir al administrador consultar el sistema de forma remota a través de internet (requiere autenticación). | Pendiente |
+| F-06 | Estado visual por tarea | **Nueva** | Mostrar un emoji junto a cada tarea: en tiempo, fuera de tiempo, o "❌" para actividades no realizadas en días pasados. | Pendiente |
+| F-07 | Resumen diario con nota | **Nueva** | Mostrar en la parte superior un emoji por cada día transcurrido a modo de "nota" o calificación general del día. | Pendiente |
+
+## Diseño Técnico (Borrador)
+* **Frontend:** [Por definir]
+* **Backend:** [Por definir]
+* **Base de Datos:** [Por definir]
+* **Seguridad:** [Ej. Login simple con usuario/contraseña para el administrador]
+
+## Cómo levantar el proyecto
+*(Completar cuando inicie el desarrollo)*
+---
+
 # Incentives Management
 
 ## Overview
