@@ -5,13 +5,12 @@ Evolución de un sistema actualmente en producción (hoy funciona de forma aisla
 
 ## Inventario de Funcionalidades (Alcance)
 
-
-| ID / Funcionalidad | Descripción / Regla de negocio clave | Tipo | Estado |
+| ID / Funcionalidad | Descripción / Regla de negocio clave | Actual | Nuevo |
 | :--- | :--- | :--- | :--- |
-| **F-01** / Planificación recurrente semanal | Ingresar actividad y día/s de la semana a repetir y especificar bloque/s de horario con su valor/es (ej: 8=100,9=80,10=60). | **Actual** | Actual |
-| **F-02** / Dashboard semanal | Vista de la semana actual: muestra actividades realizadas en días previos y botones de tareas planificadas para el día de hoy. | **Actual** | Pendiente |
-| **F-03** / Ejecución de actividad | El usuario presiona el botón de la actividad al terminarla y esta pasa al listado de realizadas del día actual. | **Actual** | Pendiente |
-| **F-04** / Resumen mensual | Mostrar en la parte superior del dashboard los valores acumulados por usuario correspondientes al mes pasado. | **Actual** | Pendiente |
+| **F-01** / Planificación recurrente semanal | Ingresar actividad y día/s de la semana a repetir y especificar bloque/s de horario con su valor/es (ej: 8=100,9=80,10=60). | **Sí** | Pendiente |
+| **F-02** / Dashboard semanal | Vista de la semana actual: muestra actividades realizadas en días previos y botones de tareas planificadas para el día de hoy. | **Sí** | Pendiente |
+| **F-03** / Ejecución de actividad | El usuario presiona el botón de la actividad al terminarla y esta pasa al listado de realizadas del día actual. | **Sí** | Pendiente |
+| **F-04** / Resumen mensual | Mostrar en la parte superior del dashboard los valores acumulados por usuario correspondientes al mes pasado. | **Sí** | Pendiente |
 | **F-05** / Acceso web administrador | Permitir al administrador consultar el sistema de forma remota a través de internet (requiere autenticación). | **Nueva** | Pendiente |
 | **F-06** / Estado visual por tarea | Mostrar un emoji junto a cada tarea: en tiempo, fuera de tiempo, o "❌" para actividades no realizadas en días pasados. | **Nueva** | Pendiente |
 | **F-07** / Resumen diario con nota | Mostrar en la parte superior un emoji por cada día transcurrido a modo de "nota" o calificación general del día. | **Nueva** | Pendiente |
