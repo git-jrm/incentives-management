@@ -19,10 +19,9 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 | **F-03** / Componente día | Lista actividades registradas (pasado), actividades planificadas y registradas (hoy) ó actividades planificadas (futuro).
 | **F-04** / Ejecución de actividad | Las actividades planificadas para el día actual se muestran como un botón que se presiona realizada la actividad. | **Sí** | Sí |
 | **F-05** / Tabla resumen | Muestra totales acumulados para mes anterior y semana anterior por cada usuario. | **Sí** | Sí |
-| **F-00** / Estado por tarea | Mostrar un emoji junto a cada tarea: en tiempo, fuera de tiempo, o no realizadas (días pasados). | **No** | Sí |
-| **F-00** / Acceso web | Permitir acceder al sistema de forma autenticada a través de internet. | **No** | Sí |
-
+| **F-06** / Estado por tarea | Mostrar un emoji junto a cada tarea: en tiempo, fuera de tiempo, o no realizadas (días pasados). | **No** | Sí |
 | **F-00** / Resumen diario con nota | Mostrar en la parte superior un emoji por cada día transcurrido a modo de "nota" o calificación general del día. | **No** | Sí |
+| **F-07** / Acceso web autenticado | Permitir acceder al sistema de forma autenticada a través de internet. | **No** | Sí |
 
 ### Criterio UX y Psicología del Comportamiento (Estados de Actividad)
 
@@ -31,10 +30,6 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 * **Validación sin juicio:** El estado neutral (`✔️` / `🙂`) reconoce el esfuerzo de cumplir el compromiso personal (*progreso sobre perfección*), reservando el máximo refuerzo visual (`☑️` / `😁`) para la puntualidad.
 * **Balance del sistema:** Esta escala crea un entorno flexible pero estructurado que fomenta la constancia, educa sin juzgar y maximiza la retención.
 
-🔥
-# Incentives Management
-
-## Overview
 
 **Incentives Management** is an enterprise-grade compensation system that automates performance-based bonus calculations by evaluating daily operational objectives through the OKR (Objectives and Key Results) methodology.
 
@@ -43,11 +38,12 @@ Instead of managing granular tasks, the architecture maps each business day as a
 The system features a real-time computation engine that tracks completion rates and time-bound compliance, programmatically triggering financial incentives and bonus eligibility as soon as the daily objective is marked as completed through the fulfillment of its activities (goals).
 
 REQS:
-1.-
-2.-
-3.- una zona donde hayan actividades ´para elegir´ (que se pueda elegir ´libre´? porqupe?)
+1.- una zona donde hayan actividades ´para elegir´ (que se pueda elegir ´libre´? porqupe?)
 
 This is the MVP wireframe validate with stakeholder:
+
+> * El enfoque usa Late con indicador neutral para los retrasos desde la psicología del comportamiento ya que el usuario define su propio bloque horario, el sistema actúa como un espejo de su compromiso personal, no se debe "castigar" el estado Late con emojis negativos ya que activaría la culpa. Por otro lado, premiar igual que el On Time diluye el valor de la disciplina y fomenta la procrastinación.
+
 
 #### DESKTOP (spanish)
 ```text
@@ -88,14 +84,3 @@ This is the MVP wireframe validate with stakeholder:
 | 😐 Something left undone           |
 +------------------------------------+
 ```
-
-Each GOAL have own and range of values for example:
-- 9:00 - 10:00 hrs : 20000
-- 10:00 - 11:00 hrs : 16000
-- 11:00 - 12:00 hrs : 15000
-- 12:00 - 13:00 hrs : 14000
-
-
-
-
-
