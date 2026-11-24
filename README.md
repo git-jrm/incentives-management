@@ -1,6 +1,5 @@
 # Incentives Management
 
-
 ## Contexto
 Modernización de un aplicativo *legacy* (incentivos) actualmente en producción para saldar la deuda técnica acumulada y habilitar nuevas funcionalidades solicitadas por el negocio, como mejorar la visibilidad al equipo integrando métricas visuales de cumplimiento en tiempo real mejorando la trazabilidad.
 
@@ -20,9 +19,9 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 | **F-03** / Componente día | Lista actividades registradas (pasado), actividades planificadas y registradas (hoy) ó actividades planificadas (futuro).
 | **F-04** / Ejecución de actividad | Las actividades planificadas para el día actual se muestran como un botón que se presiona realizada la actividad. | **Sí** | Sí |
 | **F-05** / Tabla resumen | Muestra totales acumulados para mes anterior y semana anterior por cada usuario. | **Sí** | Sí |
+| **F-00** / Estado por tarea | Mostrar un emoji junto a cada tarea: en tiempo, fuera de tiempo, o no realizadas (días pasados). | **No** | Sí |
+| **F-00** / Acceso web | Permitir acceder al sistema de forma autenticada a través de internet. | **No** | Sí |
 
-| **F-00** / Estado por tarea | Mostrar un emoji junto a cada tarea: en tiempo, fuera de tiempo, o "❌" para actividades no realizadas en días pasados. | **No** | Sí |
-| **F-00** / Acceso web administrador | Permitir al administrador consultar el sistema de forma remota a través de internet (requiere autenticación). | **No** | Sí |
 | **F-00** / Resumen diario con nota | Mostrar en la parte superior un emoji por cada día transcurrido a modo de "nota" o calificación general del día. | **No** | Sí |
 
 ### Criterio UX y Psicología del Comportamiento (Estados de Actividad)
