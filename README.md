@@ -19,7 +19,6 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 | **F-03** / Componente día | Lista actividades registradas (pasado), actividades planificadas y registradas (hoy) ó actividades planificadas (futuro).
 | **F-04** / Ejecución de actividad | Las actividades planificadas para el día actual se muestran como un botón que se presiona realizada la actividad. | **Sí** | Sí |
 | **F-05** / Tabla resumen | Muestra totales acumulados para mes anterior y semana anterior por cada usuario. | **Sí** | Sí |
-
 | **F-06** / Estado por tarea | Mostrar un emoji junto a cada tarea: en tiempo, fuera de tiempo, o no realizadas (días pasados). | **No** | Sí |
 | **F-00** / Resumen diario con nota | Mostrar en la parte superior un emoji por cada día transcurrido a modo de "nota" o calificación general del día. | **No** | Sí |
 | **F-07** / Acceso web autenticado | Permitir acceder al sistema de forma autenticada a través de internet. | **No** | Sí |
