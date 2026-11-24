@@ -14,14 +14,17 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 | ID / Funcionalidad | Descripción / Regla de negocio clave | Legacy | Nuevo |
 | :--- | :--- | :--- | :--- |
-| **F-01** / Planificación semanal | Permite ingresar actividades, indicando los días de la semana y bloques de horario con sus valores (ej. 8=100,9=80,10=60). | **Sí** | Sí |
+| **F-01** / Planificación semanal | Permite ingresar actividades indicando días de la semana y sus bloques de horario con sus valores (ej. 9=100,10=80). | **Sí** | Sí |
 | **F-02** / Dashboard | Muestra tabla semana actual y tabla resumen en la parte superior. | **Sí** | Sí |
 | **F-03** / Componente día | Lista actividades registradas (pasado), actividades planificadas y registradas (hoy) ó actividades planificadas (futuro).
 | **F-04** / Ejecución de actividad | Las actividades planificadas para el día actual se muestran como un botón que se presiona realizada la actividad. | **Sí** | Sí |
 | **F-05** / Tabla resumen | Muestra totales acumulados para mes anterior y semana anterior por cada usuario. | **Sí** | Sí |
+
 | **F-06** / Estado por tarea | Mostrar un emoji junto a cada tarea: en tiempo, fuera de tiempo, o no realizadas (días pasados). | **No** | Sí |
 | **F-00** / Resumen diario con nota | Mostrar en la parte superior un emoji por cada día transcurrido a modo de "nota" o calificación general del día. | **No** | Sí |
 | **F-07** / Acceso web autenticado | Permitir acceder al sistema de forma autenticada a través de internet. | **No** | Sí |
+| **F-01** / Planificación anual | Permite ingresar actividades indicando meses, días del mes y sus bloques de horario con sus valores (ej. 9=100,10=80). | **No** | Sí |
+| **F-07** / Pool de actividades | Permitir acceder al sistema de forma autenticada a través de internet. | **No** | Sí |
 
 ### Criterio UX y Psicología del Comportamiento (Estados de Actividad)
 
@@ -29,7 +32,6 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 * **Prevención de abandono:** Al ser bloques definidos por el propio usuario, penalizar un retraso con alertas negativas activa la culpa (principal causa de abandono), mientras que premiarlo igual que el cumplimiento puntual diluye la disciplina.
 * **Validación sin juicio:** El estado neutral (`✔️` / `🙂`) reconoce el esfuerzo de cumplir el compromiso personal (*progreso sobre perfección*), reservando el máximo refuerzo visual (`☑️` / `😁`) para la puntualidad.
 * **Balance del sistema:** Esta escala crea un entorno flexible pero estructurado que fomenta la constancia, educa sin juzgar y maximiza la retención.
-
 
 **Incentives Management** is an enterprise-grade compensation system that automates performance-based bonus calculations by evaluating daily operational objectives through the OKR (Objectives and Key Results) methodology.
 
