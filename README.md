@@ -1,7 +1,7 @@
 # Incentives Management
 
 ## Contexto
-Modernización de un aplicativo *legacy* (incentivos) actualmente en producción para saldar la deuda técnica acumulada y habilitar nuevas funcionalidades solicitadas por el negocio, como mejorar la visibilidad al equipo integrando métricas visuales de cumplimiento en tiempo real mejorando la trazabilidad.
+Modernización del aplicativo *legacy* `incentivos` actualmente en producción para saldar la deuda técnica acumulada y habilitar nuevas funcionalidades solicitadas por el negocio, como mejorar la visibilidad al equipo integrando métricas visuales de cumplimiento en tiempo real mejorando la trazabilidad.
 
 El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniendo la continuidad operativa, mejorando la mantenibilidad e integración del sistema a un proceso eficiente de mejora continua (CI/CD).
 
@@ -9,21 +9,25 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 * **Entorno aislado:** Al funcionar en un entorno local cerrado sin acceso remoto, impide que el administrador supervise el estado y avance de las actividades en tiempo real desde internet.
 * **Ausencia de métricas de cumplimiento:** Carece de indicadores visuales rápidos que permitan evaluar el rendimiento general por día y si las tareas se ejecutaron dentro de los bloques horarios esperados.
 * **Falta de trazabilidad en omisiones:** El sistema actual solo persiste las actividades ejecutadas, sin dejar registro de las tareas planificadas que no se realizaron.
+* **Planificación semanal:** El sistema actual permite la planificación de actividades recurrentes con frecuencia semanal, se requiere agregar capacidad mensual y anual.
 
 ## Inventario de Funcionalidades (Alcance)
 
 | ID / Funcionalidad | Descripción / Regla de negocio clave | Legacy | Nuevo |
 | :--- | :--- | :--- | :--- |
-| **F-01** / Planificación semanal | Permite ingresar actividades indicando días de la semana y sus bloques de horario con sus valores (ej. 9=100,10=80). | **Sí** | Sí |
-| **F-02** / Dashboard | Muestra tabla semana actual y tabla resumen en la parte superior. | **Sí** | Sí |
-| **F-03** / Componente día | Lista actividades registradas (pasado), actividades planificadas y registradas (hoy) ó actividades planificadas (futuro).
-| **F-04** / Ejecución de actividad | Las actividades planificadas para el día actual se muestran como un botón que se presiona realizada la actividad. | **Sí** | Sí |
-| **F-05** / Tabla resumen | Muestra totales acumulados para mes anterior y semana anterior por cada usuario. | **Sí** | Sí |
-| **F-06** / Estado por tarea | Mostrar un emoji junto a cada tarea: en tiempo, fuera de tiempo, o no realizadas (días pasados). | **No** | Sí |
-| **F-00** / Resumen diario con nota | Mostrar en la parte superior un emoji por cada día transcurrido a modo de "nota" o calificación general del día. | **No** | Sí |
+| **F-01** / Planificación semanal | Permite ingresar actividades recurrentes indicando días de la semana y bloque horario solicitado por la persona. | **Sí** | Sí |
+| **F-01** / Planificación anual | Permite ingresar actividades recurrentes indicando meses y días del mes solicitado por la persona. | **No** | Sí |
+| **F-02** / Dashboard | Muestra actividades por cada día de la semana actual y un resumen de los totales por persona. | **Sí** | Sí |
+| **F-03** / Día (componente) | Pasado: actividades hechas y no hechas; actual: actividades planificadas y hechas; ó futuro: actividades planificadas.
+| **F-04** / Ejecución de actividad | Las actividades planificadas para el día actual se muestran como botón que se presiona al realizar la actividad. | **Sí** | Sí |
+| **F-05** / Tabla resumen | Muestra totales mes anterior y semana anterior por persona. | **Sí** | Sí |
+| **F-06** / Estado actividades registradas | Muestra representación del estado de cada actividad : `hecha a tiempo`, `hecha fuera de tiempo` o `no hecha` (día pasado). | **No** | Sí |
+| **F-00** / Estado semanal | Muestra emoji por cada día de la semana (actual y pasadas) representando el estado del día: . | **No** | Sí |
 | **F-07** / Acceso web autenticado | Permitir acceder al sistema de forma autenticada a través de internet. | **No** | Sí |
-| **F-01** / Planificación anual | Permite ingresar actividades indicando meses, días del mes y sus bloques de horario con sus valores (ej. 9=100,10=80). | **No** | Sí |
-| **F-07** / Pool de actividades | Permitir acceder al sistema de forma autenticada a través de internet. | **No** | Sí |
+| **F-01** / Planificación anual | Permite ingresar actividades recurrentes indicando meses y días del mes con sus valores (ej. 1=100,2=80). | **No** | Sí |
+| **F-07** / Pool de actividades | Permitir . | **No** | Sí |
+| **F-07** / Pool de actividades | Permitir . | **No** | Sí |
+| **F-07** / Pool de actividades | Permitir . | **No** | Sí |
 
 ### Criterio UX y Psicología del Comportamiento (Estados de Actividad)
 
