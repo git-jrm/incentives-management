@@ -13,7 +13,7 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 ## Requerimientos (Alcance)
 
-### Funcionales
+### Funcionales:
 
 | ID / Funcionalidad | Descripción / Regla de negocio clave | Actual (Legacy) | Nuevo |
 | :--- | :--- | :--- | :--- |
