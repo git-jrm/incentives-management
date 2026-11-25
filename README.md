@@ -70,7 +70,7 @@ This is the MVP wireframe validate with stakeholder:
 #### MOBILE (spanish)
 ```text
 +------------------------------------+
-| NOVEMBER 😁 🙂 😐                  |
+| NOVEMBER 🔥 🙂 😐                  |
 +------------------------------------+
 |           wednesday 4/11           |
 +------------------------------------+
