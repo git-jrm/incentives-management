@@ -20,23 +20,22 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 | **FR-01** / Planificación semanal | Permite ingresar actividades recurrentes indicando días de la semana, bloques de horario y valores. | ✅ | ✅ |
 | **FR-02** / Planificación adicional | Permite ingresar actividades adicionales y su valor. | ✅ | ✅ |
 | **FR-03** / Planificación anual | Permite ingresar actividades recurrentes indicando meses, días del mes y valores. | ❌ | ✅ |
-| **FR-04** / Planificación puntual | Permite ingresar actividades puntuales, indicando fecha de inicio, si es persistente y su valor. | ❌ | ✅ |
+| **FR-04** / Planificación puntual | Permite ingresar actividades puntuales (kanban), indicando fecha de inicio, si es persistente y su valor. | ❌ | ✅ |
 | **FR-05-old** / Semana actual (legacy) | Tabla en dashboard con actividades de cada `día` de la semana actual, desde el inicio hasta el día actual. | ✅ | ❌ |
 | **FR-05** / Semana actual (new) | Muestra en dashboard con actividades de cada `día` de la semana actual completa, de inicio a fin. | ❌ | ✅ |
 | **FR-06-old** / Componente `día` (old) | Pasado: actividades `hechas`; actual: actividades `planificadas` (no hechas), `botón más` y `hechas`; ó futuro: nada. | ✅ | ❌ |
 | **FR-06** / Componente `día` (new) | Pasado: actividades `hechas` y `no hechas`; actual: actividades `planificadas` (no hechas), `botón más` y `hechas`; ó futuro: `actividades planificadas`. | ❌ | ✅ |
 | **FR-07** / Ejecución de actividad | Las actividades `planificadas` para el día actual se muestran como botones que se presionan y pasan al listado de actividades `hechas`. | ✅ | ✅ |
-| **FR-08** / Estado actividades registradas | Muestra representación visual del estado de cada actividad : `hecha a tiempo`, `hecha fuera de tiempo` o `no hecha` (día pasado). | ❌ | ✅ |
-| **FR-09** /  | Muestra una representación visual de cada estado de los últimos días pasados. | ❌ | ✅ |
-| **FR-10** /  | Muestra una representación visual de cada estado de los últimos meses pasados. | ❌ | ✅ |
+| **FR-08** / Representación actividad registrada | Muestra representación visual del estado de cada actividad : `hecha a tiempo`, `hecha fuera de tiempo` o `no hecha` (día pasado). | ❌ | ✅ |
+| **FR-09** / Representación día | Muestra una representación visual de cada estado de los últimos días pasados. | ❌ | ✅ |
+| **FR-10** / Representación mes | Muestra una representación visual de cada estado de los últimos meses pasados. | ❌ | ✅ |
 | **FR-11-old** / Totales (legacy) | Muestra en dashboard los montos totales y directos; del mes anterior, semana anterior y semana actual. | ✅ | ❌ |
 | **FR-11** / Totales (new) | Muestra en dashboard los montos totales del mes anterior y mes actual. | ❌ | ✅ |
 | **FR-12** / Acceso web autenticado | Permitir acceder al sistema de forma autenticada a través de internet. | ❌ | ✅ |
-| **FR-13** / Botón más | Muestra actividades puntuales y adicionales. | ❌ | ✅ |
+| **FR-13** / Botón día libre | Marcar día libre evita actividades no hechas. | ❌ | ✅ |
+| **FR-14** / Botón más | Muestra botón día libes, actividades puntuales y adicionales. | ❌ | ✅ |
 
 ### No funcionales
-
-<inserte tabla>
 
 ## Criterio UX y Psicología del Comportamiento (Estados de Actividad)
 
@@ -57,7 +56,7 @@ This is the MVP wireframe validate with stakeholder:
 • ⭐ Nivel 2 (Cumplido): Se completó todo el trabajo del mes, aunque algún día hubo entregas fuera de horario. (Buen desempeño, meta lograda sin el estatus perfecto).
 • 📝 Nivel 3 (Observaciones): Se avanzó con el plan, quedó algún punto no hecho para ajustar en el próximo ciclo si existe patrón. (Enfoque en mejora continua).
 ### Indicador día
-🔥
+😀
 🙂
 📝
 ### Indicador actividad
