@@ -22,19 +22,17 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 | **FR-03** / Planificación anual | Permite ingresar actividades recurrentes indicando meses, días del mes y valores. | ❌ | ✅ |
 | **FR-04** / Planificación puntual | Permite ingresar actividades puntuales, indicando fecha de inicio, si es persistente y su valor. | ❌ | ✅ |
 | **FR-05-old** / Semana actual (legacy) | Tabla en dashboard con actividades de cada `día` de la semana actual, desde el inicio hasta el día actual. | ✅ | ❌ |
-| **FR-05** / Semana actual (new) | Tabla en dashboard con actividades de cada `día` de la semana actual completa, de inicio a fin. | ❌ | ✅ |
-| **FR-06-old** / Totales (legacy) | Muestra los totales del mes anterior, semana anterior y semana actual. | ✅ | ✅ |
-| **FR-06** / Totales (new) | Muestra los totales del mes anterior y mes actual. | ✅ | ✅ |
-
-| **FR-10** /  | Muestra una representación visual por cada día pasado de la semana actual y semanas pasadas, para el estado final del día: . | ❌ | ✅ |
-
-
-| **FR-06** / Componente `día` | Pasado: actividades `hechas` y `no hechas`; actual: actividades `planificadas` (no hechas), `botón más` y `hechas`; ó futuro: `actividades planificadas`. | ✅ | ✅ |
-| **FR-07** / Ejecución de actividad | Las actividades `planificadas` para el día actual se muestran como botones que se presionan al realizar la actividad. | ✅ | ✅ |
-| **FR-08** / Tabla resumen | Muestra totales mes anterior y semana anterior por persona. | ✅ | ❌ |
-| **FR-09** / Estado actividades registradas | Muestra representación del estado de cada actividad : `hecha a tiempo`, `hecha fuera de tiempo` o `no hecha` (día pasado). | ❌ | ✅ |
-| **FR-11** / Acceso web autenticado | Permitir acceder al sistema de forma autenticada a través de internet. | ❌ | ✅ |
-| **FR-12** / Botón más | Muestra actividades puntuales y adicionales. | ❌ | ✅ |
+| **FR-05** / Semana actual (new) | Muestra en dashboard con actividades de cada `día` de la semana actual completa, de inicio a fin. | ❌ | ✅ |
+| **FR-06-old** / Componente `día` (old) | Pasado: actividades `hechas`; actual: actividades `planificadas` (no hechas), `botón más` y `hechas`; ó futuro: nada. | ✅ | ❌ |
+| **FR-06** / Componente `día` (new) | Pasado: actividades `hechas` y `no hechas`; actual: actividades `planificadas` (no hechas), `botón más` y `hechas`; ó futuro: `actividades planificadas`. | ❌ | ✅ |
+| **FR-07** / Ejecución de actividad | Las actividades `planificadas` para el día actual se muestran como botones que se presionan y pasan al listado de actividades `hechas`. | ✅ | ✅ |
+| **FR-08** / Estado actividades registradas | Muestra representación visual del estado de cada actividad : `hecha a tiempo`, `hecha fuera de tiempo` o `no hecha` (día pasado). | ❌ | ✅ |
+| **FR-09** /  | Muestra una representación visual de cada estado de los últimos días pasados. | ❌ | ✅ |
+| **FR-10** /  | Muestra una representación visual de cada estado de los últimos meses pasados. | ❌ | ✅ |
+| **FR-11-old** / Totales (legacy) | Muestra en dashboard los montos totales y directos; del mes anterior, semana anterior y semana actual. | ✅ | ❌ |
+| **FR-11** / Totales (new) | Muestra en dashboard los montos totales del mes anterior y mes actual. | ❌ | ✅ |
+| **FR-12** / Acceso web autenticado | Permitir acceder al sistema de forma autenticada a través de internet. | ❌ | ✅ |
+| **FR-13** / Botón más | Muestra actividades puntuales y adicionales. | ❌ | ✅ |
 
 ### No funcionales
 
@@ -53,11 +51,24 @@ This is the MVP wireframe validate with stakeholder:
 
 > * El enfoque usa Late con indicador neutral para los retrasos desde la psicología del comportamiento ya que el usuario define su propio bloque horario, el sistema actúa como un espejo de su compromiso personal, no se debe "castigar" el estado Late con emojis negativos ya que activaría la culpa. Por otro lado, premiar igual que el On Time diluye el valor de la disciplina y fomenta la procrastinación.
 
+## Indicadores
+### Indicador mes
+• 👑 Nivel 1 (Impecable): Todo el equipo cumplió el 100% de las tareas y siempre en horario. (Máximo estatus y reconocimiento).
+• ⭐ Nivel 2 (Cumplido): Se completó todo el trabajo del mes, aunque algún día hubo entregas fuera de horario. (Buen desempeño, meta lograda sin el estatus perfecto).
+• 📝 Nivel 3 (Observaciones): Se avanzó con el plan, quedó algún punto no hecho para ajustar en el próximo ciclo si existe patrón. (Enfoque en mejora continua).
+### Indicador día
+🔥
+🙂
+📝
+### Indicador actividad
+✅
+☑️
+✖️
 
 #### DESKTOP (spanish)
 ```text
 +--------------------------------------------------------------------------------------------------------------+
-| 🔥🔥(🔥)🔥🔥🔥|🔥🔥🔥(🔥)🔥🔥🔥🔥🔥🔥(🔥)🔥🔥🙂🔥🔥🔥(🔥)🙂🔥🔥😐🔥🔥(🔥)🔥🔥😐🔥🔥🔥|(🔥)🔥🔥 |  < 💎 >  |
+| 🔥🔥(🔥)🔥🔥🔥|🔥🔥🔥(🔥)🔥🔥🔥🔥🔥🔥(🔥)🔥🔥🙂🔥🔥🔥(🔥)🙂🔥🔥😐🔥🔥(🔥)🔥🔥😐🔥🔥🔥|(🔥)🔥🔥  |  👑⭐📝 |
 | MES ACT:                                                                       |         
 +--------------------------------------------------------------------------------------------------------------+
 |   dom 1/11  |   lun 2/11  |   mar 3/11  |                miércoles 4/11     | jue 5/11 | vie 6/11 | sáb 7/11 |
@@ -70,7 +81,7 @@ This is the MVP wireframe validate with stakeholder:
 |             | ☑️ GOAL (X) | ✔️ GOAL (X) | ☑️ GOAL (X)                       |          |          |          |
 |             | ✔️ GOAL (X) | ✖️ GOAL (X) | ✔️ GOAL (X)                       |          |          |          |
 +-------------+-------------+-------------+-----------------------------------+----------+----------+----------+
-| Actividad:  ✅ En tiempo      ✔️ Fuera de tiempo      ✖️ No hecha                                                   |
+| Actividad:  ✅ En tiempo      ✔️ Fuera de tiempo      ✖️ No hecha                                              |
 | Estado día: 🔥 Todo a tiempo      🙂 Todo hecho      😐 Algo no hecho                                        |
 +--------------------------------------------------------------------------------------------------------------+
 ```
@@ -95,9 +106,8 @@ This is the MVP wireframe validate with stakeholder:
 | 😐 Something left undone           |
 +------------------------------------+
 ```
-Indicador meses:
-• 👑 Nivel 1 (Impecable): Todo el equipo cumplió el 100% de las tareas y siempre en horario. (Máximo estatus y reconocimiento).
-• ⭐ Nivel 2 (Cumplido): Se completó todo el trabajo del mes, aunque algún día hubo entregas fuera de horario. (Buen desempeño, meta lograda sin el estatus perfecto).
-• 📝 Nivel 3 (Observaciones): Se avanzó con el plan, quedó algún punto no hecho para ajustar en el próximo ciclo si existe patrón. (Enfoque en mejora continua).
+
+
+
 
 
