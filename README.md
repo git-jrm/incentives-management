@@ -15,7 +15,7 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 ### Funcionales
 
-| ID / Funcionalidad | Descripción / Regla de negocio clave | Legacy | Nuevo |
+| ID / Funcionalidad | Descripción / Regla de negocio clave | Actual (Legacy) | Nuevo |
 | :--- | :--- | :--- | :--- |
 | **FR-01** / Planificación semanal | Permite ingresar actividades recurrentes indicando días de la semana y bloque horario solicitado por la persona. | **Sí** | Sí |
 | **FR-02** / Planificación anual | Permite ingresar actividades recurrentes indicando meses y días del mes solicitado por la persona. | **No** | Sí |
