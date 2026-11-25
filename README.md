@@ -17,20 +17,18 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 | ID / Funcionalidad | Descripción / Regla de negocio clave | Actual (Legacy) | Nuevo |
 | :--- | :--- | :--- | :--- |
-| **FR-01** / Planificación semanal | Permite ingresar actividades recurrentes indicando días de la semana y bloque horario solicitado por la persona. | **Sí** | Sí |
-| **FR-02** / Planificación anual | Permite ingresar actividades recurrentes indicando meses y días del mes solicitado por la persona. | **No** | Sí |
-| **FR-03** / Dashboard | Muestra actividades por cada día de la semana actual y un resumen de los totales por persona. | **Sí** | Sí |
-| **FR-04** / Día (componente) | Pasado: actividades hechas y no hechas; actual: actividades planificadas, `botón más` y hechas; ó futuro: actividades planificadas.
-| **FR-05** / Ejecución de actividad | Las actividades planificadas para el día actual se muestran como botón que se presiona al realizar la actividad. | **Sí** | Sí |
-| **FR-06** / Tabla resumen | Muestra totales mes anterior y semana anterior por persona. | **Sí** | Sí |
-| **FR-07** / Estado actividades registradas | Muestra representación del estado de cada actividad : `hecha a tiempo`, `hecha fuera de tiempo` o `no hecha` (día pasado). | **No** | Sí |
-| **FR-08** / Estado semanal | Muestra emoji por cada día de la semana (actual y pasadas) representando el estado del día: . | **No** | Sí |
-| **FR-09** / Acceso web autenticado | Permitir acceder al sistema de forma autenticada a través de internet. | **No** | Sí |
-| **FR-10** / Planificación anual | Permite ingresar actividades recurrentes indicando meses y días del mes con sus valores (ej. 1=100,2=80). | **No** | Sí |
-| **FR-11** / Planificación puntual | Permite ingresar actividades puntuales, indicando fecha de inicio, si es persistente y su valor (ej. 1=100,2=80). | **No** | Sí |
-| **FR-11** / Planificación adicional | Permite ingresar actividades adicionales (persistentes), si es  y su valor (ej. 1=100,2=80). | **No** | Sí |
-| **FR-10** / Botón más | Muestra actividades puntuales y adicionales. | **No** | Sí |
-
+| **FR-01** / Planificación semanal | Permite ingresar actividades recurrentes indicando días de la semana, bloques de horario y valores. | **Sí** | Sí |
+| **FR-02** / Planificación adicional | Permite ingresar actividades adicionales y su valor. | **Sí** | Sí |
+| **FR-03** / Planificación anual | Permite ingresar actividades recurrentes indicando meses, días del mes y valores. | **No** | Sí |
+| **FR-04** / Planificación puntual | Permite ingresar actividades puntuales, indicando fecha de inicio, si es persistente y su valor. | **No** | Sí |
+| **FR-05** / Dashboard | Muestra actividades por cada `día` de la semana actual y un resumen de los totales por persona. | **Sí** | Sí |
+| **FR-06** / Componente `día` | Pasado: actividades `hechas` y `no hechas`; actual: actividades `planificadas` (no hechas), `botón más` y `hechas`; ó futuro: `actividades planificadas`. | **Sí** | Sí |
+| **FR-07** / Ejecución de actividad | Las actividades `planificadas` para el día actual se muestran como botones que se presionan al realizar la actividad. | **Sí** | Sí |
+| **FR-08** / Tabla resumen | Muestra totales mes anterior y semana anterior por persona. | **Sí** | Sí |
+| **FR-09** / Estado actividades registradas | Muestra representación del estado de cada actividad : `hecha a tiempo`, `hecha fuera de tiempo` o `no hecha` (día pasado). | **No** | Sí |
+| **FR-10** / Estado semanal | Muestra representación por cada día de la semana (actual y pasadas) para el estado final del día: . | **No** | Sí |
+| **FR-11** / Acceso web autenticado | Permitir acceder al sistema de forma autenticada a través de internet. | **No** | Sí |
+| **FR-12** / Botón más | Muestra actividades puntuales y adicionales. | **No** | Sí |
 
 ### No funcionales
 
