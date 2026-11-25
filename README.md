@@ -83,7 +83,7 @@ This is the MVP wireframe validate with stakeholder:
 | ✔️ GOAL (X)                        |
 +------------------------------------+
 | ☑️ In-time   ✔️ Done   ✖️ Not done |
-| 😁 All in time    🙂 All done      |
+| 🔥 All in time    🙂 All done      |
 | 😐 Something left undone           |
 +------------------------------------+
 ```
