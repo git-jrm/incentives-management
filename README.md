@@ -32,7 +32,7 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 ### No funcionales
 
-<inserte tabla aquí>
+<inserte tabla>
 
 ## Criterio UX y Psicología del Comportamiento (Estados de Actividad)
 
