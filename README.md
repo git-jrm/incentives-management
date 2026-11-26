@@ -53,11 +53,13 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 • 🥉 Bronce (con margen): Se avanzó con la jornada, quedando alguna actividad pendiente para calibrar en la planificación. (Es un metal del podio, no un fallo: reconoce el progreso y elimina la culpa).
 
-
 ### Indicador actividad
-✅
-☑️
-✖️
+• ✅ Hecha a tiempo: Ejecutada dentro de su bloque horario.
+
+• ☑️ Hecha fuera de tiempo: Ejecutada durante el día, pero fuera de su bloque horario.
+
+• ✖️ No hecha: Actividad planificada que no se ejecutó al cierre del día.
+
 
 #### DESKTOP (spanish)
 ```text
