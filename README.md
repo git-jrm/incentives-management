@@ -37,20 +37,8 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 ### No funcionales
 
-## Criterio UX y Psicología del Comportamiento (Estados de Actividad)
-
-* **Diseño de estados:** El sistema diferencia el cumplimiento en bloque horario (`☑️`) del cumplimiento fuera de plazo (`✔️`) mediante un indicador neutral, evitando castigar el retraso.
-* **Prevención de abandono:** Al ser bloques definidos por el propio usuario, penalizar un retraso con alertas negativas activa la culpa (principal causa de abandono), mientras que premiarlo igual que el cumplimiento puntual diluye la disciplina.
-* **Validación sin juicio:** El estado neutral (`✔️` / `🙂`) reconoce el esfuerzo de cumplir el compromiso personal (*progreso sobre perfección*), reservando el máximo refuerzo visual (`☑️` / `😁`) para la puntualidad.
-* **Balance del sistema:** Esta escala crea un entorno flexible pero estructurado que fomenta la constancia, educa sin juzgar y maximiza la retención.
-REQS:
-1.- una zona donde hayan actividades ´para elegir´ (que se pueda elegir ´libre´? porqupe?)
-
-This is the MVP wireframe validate with stakeholder:
-
-> * El enfoque usa Late con indicador neutral para los retrasos desde la psicología del comportamiento ya que el usuario define su propio bloque horario, el sistema actúa como un espejo de su compromiso personal, no se debe "castigar" el estado Late con emojis negativos ya que activaría la culpa. Por otro lado, premiar igual que el On Time diluye el valor de la disciplina y fomenta la procrastinación.
-
 ## Indicadores
+
 ### Indicador mes
 • 👑 Nivel 1 (Impecable): Todo el equipo cumplió el 100% de las tareas y siempre en horario. (Máximo estatus y reconocimiento).
 • ⭐ Nivel 2 (Cumplido): Se completó todo el trabajo del mes, aunque algún día hubo entregas fuera de horario. (Buen desempeño, meta lograda sin el estatus perfecto).
