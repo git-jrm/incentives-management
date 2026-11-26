@@ -33,8 +33,6 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 | **FR-13** / Botón día libre | Marcar día libre evita actividades no hechas. | ❌ | ✅ |
 | **FR-14** / Botón más | Muestra botón día libes, actividades puntuales y adicionales. | ❌ | ✅ |
 
-### No funcionales
-
 ## Indicadores
 
 ### Indicador mes
