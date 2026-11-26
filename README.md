@@ -41,12 +41,15 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 ### Indicador mes
 • 👑 Nivel 1 (Impecable): Todo el equipo cumplió el 100% de las tareas y siempre en horario. (Máximo estatus y reconocimiento).
-• ⭐ Nivel 2 (Cumplido): Se completó todo el trabajo del mes, aunque algún día hubo entregas fuera de horario. (Buen desempeño, meta lograda sin el estatus perfecto).
+• 🪙 Nivel 2 (Cumplido): Se completó todo el trabajo del mes, aunque algún día hubo entregas fuera de horario. (Buen desempeño, meta lograda sin el estatus perfecto).
 • 📝 Nivel 3 (Observaciones): Se avanzó con el plan, quedó algún punto no hecho para ajustar en el próximo ciclo si existe patrón. (Enfoque en mejora continua).
+
 ### Indicador día
-😀
-🙂
-📝
+• 🥇 Oro (en horario): Se completaron todas las actividades dentro de su bloque horario establecido. (Máxima disciplina).
+• 🥈 Plata (fuera de horario): Compromiso cumplido, completadas todas las actividades, con alguna fuera de bloque. (Progreso sobre perfección).
+• 🥉 Bronce (con margen): Se avanzó con la jornada, quedando alguna actividad pendiente para calibrar en la planificación. (Es un metal del podio, no un fallo: reconoce el progreso y elimina la culpa).
+
+
 ### Indicador actividad
 ✅
 ☑️
