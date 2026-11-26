@@ -13,9 +13,7 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 ## Requerimientos (Alcance)
 
-### Funcionales
-
-| ID / Funcionalidad | Descripción / Regla de negocio clave | Actual (Legacy) | Nuevo |
+| ID / Código / Nombre | Descripción / Regla de negocio | Actual (Legacy) | Nuevo |
 | :--- | :--- | :--- | :--- |
 | **FR-01** / Planificación semanal | Permite ingresar actividades recurrentes indicando días de la semana, bloques de horario y valores. | ✅ | ✅ |
 | **FR-02** / Planificación adicional | Permite ingresar actividades adicionales y su valor. | ✅ | ✅ |
