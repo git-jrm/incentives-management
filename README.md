@@ -56,12 +56,12 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 • ✖️ No hecha: Actividad planificada que no se ejecutó al cierre del día.
 
-
 #### DESKTOP (spanish)
 ```text
 +--------------------------------------------------------------------------------------------------------------+
-| 🔥🔥(🔥)🔥🔥🔥|🔥🔥🔥(🔥)🔥🔥🔥🔥🔥🔥(🔥)🔥🔥🙂🔥🔥🔥(🔥)🙂🔥🔥😐🔥🔥(🔥)🔥🔥😐🔥🔥🔥|(🔥)🔥🔥  | 📝🪙👑 |
-| MES ACT:                                                                       |         
+|   🔥🔥🔥🔥🔥🔥|🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🙂🔥🔥🔥🔥🙂🔥🔥😐🔥🔥🔥🔥🔥🙂🔥🔥🔥|🔥🔥🔥    |    👑  🪙  📝   |
+|   🟩🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨🟩🟩🟩🟩🟧🟩🟩🟥🟩🟩🟩🟩🟩🟨🟩🟩🟩|🟩🟩🟩    |    👑  🪙  📝   |
+|   🌻🌻🌻🌻🌻🌻|🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌱🌻🌻🌻🌻🌱🌻🌻🥀🌻🌻🌻🌻🌻🌱🌻🌻🌻|🌻🌻🌻    |    👑  🪙  📝   |
 +--------------------------------------------------------------------------------------------------------------+
 |   dom 1/11  |   lun 2/11  |   mar 3/11  |                miércoles 4/11     | jue 5/11 | vie 6/11 | sáb 7/11 |
 +-------------+-------------+-------------+-----------------------------------+----------+----------+----------+
@@ -73,9 +73,6 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 |             | ☑️ GOAL (X) | ✔️ GOAL (X) | ☑️ GOAL (X)                       |          |          |          |
 |             | ✔️ GOAL (X) | ✖️ GOAL (X) | ✔️ GOAL (X)                       |          |          |          |
 +-------------+-------------+-------------+-----------------------------------+----------+----------+----------+
-| Actividad:  ✅ En tiempo      ✔️ Fuera de tiempo      ✖️ No hecha                                              |
-| Estado día: 🔥 Todo a tiempo      🙂 Todo hecho      😐 Algo no hecho                                        |
-+--------------------------------------------------------------------------------------------------------------+
 ```
 
 #### MOBILE (spanish)
@@ -92,10 +89,6 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 | ☑️ GOAL (X)                        |
 | ☑️ GOAL (X)                        |
 | ✔️ GOAL (X)                        |
-+------------------------------------+
-| ☑️ In-time   ✔️ Done   ✖️ Not done |
-| 🔥 All in time    🙂 All done      |
-| 😐 Something left undone           |
 +------------------------------------+
 ```
 
