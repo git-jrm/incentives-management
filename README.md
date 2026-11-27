@@ -31,43 +31,36 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 | **FR-11** / Totales (new) | Muestra en dashboard los montos totales del mes anterior y mes actual. | ❌ | ✅ |
 | **FR-12** / Acceso web autenticado | Permitir acceder al sistema de forma autenticada a través de internet. | ❌ | ✅ |
 | **FR-13** / Botón día libre | Marcar día libre evita actividades no hechas. | ❌ | ✅ |
-| **FR-14** / Botón más | Muestra botón día libes, actividades puntuales y adicionales. | ❌ | ✅ |
+| **FR-14** / Botón más | Muestra botón día libres, actividades puntuales y adicionales. | ❌ | ✅ |
 
 ## Indicadores
 
 ### Indicador mes
-• 👑 Nivel 1 (Impecable): Todo el equipo cumplió el 100% de las tareas y siempre en horario. (Máximo estatus y reconocimiento).
-
+• 👑 Nivel 1 (Impecable): Todo el equipo cumplió el 100% de las tareas en horario. (Máximo estatus y reconocimiento).
 • 🪙 Nivel 2 (Cumplido): Se completó todo el trabajo del mes, aunque algún día hubo entregas fuera de horario. (Buen desempeño, meta lograda sin el estatus perfecto).
-
 • 📝 Nivel 3 (Observaciones): Se avanzó con el plan, quedó algún punto no hecho para ajustar en el próximo ciclo si existe patrón. (Enfoque en mejora continua).
 
 ### Indicador día
-• 🥇 Oro (en horario): Se completaron todas las actividades dentro de su bloque horario establecido. (Máxima disciplina).
-
-• 🥈 Plata (fuera de horario): Compromiso cumplido, completadas todas las actividades, con alguna fuera de bloque. (Progreso sobre perfección).
-
-• 🥉 Bronce (con margen): Se avanzó con la jornada, quedando alguna actividad pendiente para calibrar en la planificación. (Es un metal del podio, no un fallo: reconoce el progreso y elimina la culpa).
+• En horario: Floreció 🌻: Se completaron todas las actividades dentro de su bloque horario establecido. (disciplina y excelencia).
+• Fuera de horario: 🌱 Germinó: Compromiso cumplido, completadas todas las actividades, con alguna fuera de bloque. (Cumplimiento sobre perfección).
+• Con margen: 🥀 Marchitó: Se avanzó con la jornada, quedando alguna actividad pendiente para calibrar en la planificación. (Concientización y progreso).
 
 ### Indicador actividad
 • ✅ Hecha a tiempo: Ejecutada dentro de su bloque horario.
-
 • ☑️ Hecha fuera de tiempo: Ejecutada durante el día, pero fuera de su bloque horario.
-
 • ✖️ No hecha: Actividad planificada que no se ejecutó al cierre del día.
 
-#### DESKTOP (spanish)
+#### Desktop view
 ```text
 +--------------------------------------------------------------------------------------------------------------+
-|   🔥🔥🔥🔥🔥🔥|🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🙂🔥🔥🔥🔥🙂🔥🔥😐🔥🔥🔥🔥🔥🙂🔥🔥🔥|🔥🔥🔥    |    👑  🪙  📝   |
-|   🟩🟩🟩🟩🟩🟩|🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨🟩🟩🟩🟩🟧🟩🟩🟥🟩🟩🟩🟩🟩🟨🟩🟩🟩|🟩🟩🟩    |    👑  🪙  📝   |
-|   🌻🌻🌻🌻🌻🌻|🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌱🌻🌻🌻🌻🌱🌻🌻🥀🌻🌻🌻🌻🌻🌱🌻🌻🌻|🌻🌻🌻    |    👑  🪙  📝   |
+|  <                                últimos 40 días                                  >   |  <ultimos 3 meses>  |
+|  🌻🌻🌻🌻🌻(🌻🌻🌻🌻🌻🌻🌻🌻🌻🌱🌻🌻🌻🌻🌱🌻🌻🌻🥀🌻🌻🌻🌻🌻🌻🌻🌱🌻🌻🌻🌻)🌻🌱🥀   |      👑  💎  🪙     |
 +--------------------------------------------------------------------------------------------------------------+
-|   dom 1/11  |   lun 2/11  |   mar 3/11  |                miércoles 4/11     | jue 5/11 | vie 6/11 | sáb 7/11 |
+|   dom 1/11  |   lun 2/11  |   mar 3/11  |            miércoles 4/11         | jue 5/11 | vie 6/11 | sáb 7/11 |
 +-------------+-------------+-------------+-----------------------------------+----------+----------+----------+
-| ✅ GOAL (X) | ☑️ GOAL (X) | ☑️ GOAL (X) | [GOAL (X)]  [GOAL (X)]  (FF)  [+] | GOAL (X) | GOAL (X) | GOAL (X) |
-| ✅ GOAL (X) | ☑️ GOAL (X) | ☑️ GOAL (X) | [GOAL (X)]  [GOAL (X)]  (MM)  [+] | GOAL (X) | GOAL (X) | GOAL (X) |
-| ✅ GOAL (X) | ☑️ GOAL (X) | ☑️ GOAL (X) | [GOAL (X)]  [GOAL (X)]  (JJ)  [+] | GOAL (X) | GOAL (X) | GOAL (X) |
+| ✅ GOAL (X) | ✅ GOAL (X) | ✅ GOAL (X) | [GOAL (X)]  [GOAL (X)]  (FF)  [+] | GOAL (X) | GOAL (X) | GOAL (X) |
+| ✅ GOAL (X) | ✅ GOAL (X) | ✅ GOAL (X) | [GOAL (X)]  [GOAL (X)]  (MM)  [+] | GOAL (X) | GOAL (X) | GOAL (X) |
+| ✅ GOAL (X) | ✅ GOAL (X) | ✅ GOAL (X) | [GOAL (X)]  [GOAL (X)]  (JJ)  [+] | GOAL (X) | GOAL (X) | GOAL (X) |
 |             | ☑️ GOAL (X) | ☑️ GOAL (X) |                                   | GOAL (X) | GOAL (X) |          |
 |             | ☑️ GOAL (X) | ☑️ GOAL (X) | ☑️ GOAL (X)                       | GOAL (X) | GOAL (X) |          |
 |             | ☑️ GOAL (X) | ✔️ GOAL (X) | ☑️ GOAL (X)                       |          |          |          |
@@ -75,7 +68,7 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 +-------------+-------------+-------------+-----------------------------------+----------+----------+----------+
 ```
 
-#### MOBILE (spanish)
+#### Mobile view
 ```text
 +------------------------------------+
 | NOVEMBER 🔥 🙂 😐                  |
@@ -96,3 +89,8 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 
 
+otras variantes:
+
+|  🌻🌻🌻🌻🌻(🌻🌻🌻🌻🌻🌻🌻🌱🌻🌻🌻🌻🌱🌻🌻🥀🌻🌻🌻🌻🌻🌱🌻🌻🌻)🌻🌻🌻 | 👑🪙📝 |
+|  🔥🔥🔥🔥🔥(🔥🔥🔥🔥🔥🔥🔥🙂🔥🔥🔥🔥🙂🔥🔥😐🔥🔥🔥🔥🔥🙂🔥🔥🔥)🔥🔥🔥 | 👑🪙📝 |
+|  🟩🟩🟩🟩🟩(🟩🟩🟩🟩🟩🟩🟩🟨🟩🟩🟩🟩🟩🟩🟩🟥🟩🟩🟩🟩🟩🟨🟩🟩🟩)🟩🟩🟩 | 👑🪙📝 |
