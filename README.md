@@ -43,11 +43,11 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 • 📝 Nivel 3 (Observaciones): Se avanzó con el plan, quedó algún punto no hecho para ajustar en el próximo ciclo si existe patrón. (Enfoque en mejora continua).
 
 ### Indicador día
-• En horario: Floreció 🌻: Se completaron todas las actividades dentro de su bloque horario establecido. (disciplina y excelencia).
+• En horario: Floreció 🌻 --> Se completaron todas las actividades dentro de su bloque horario establecido. (disciplina y excelencia).
 
-• Fuera de horario: 🌱 Germinó: Compromiso cumplido, completadas todas las actividades, con alguna fuera de bloque. (Cumplimiento sobre perfección).
+• Fuera de horario: 🌱 Germinó --> Compromiso cumplido, completadas todas las actividades, con alguna fuera de bloque. (Cumplimiento sobre perfección).
 
-• Con margen: 🥀 Marchitó: Se avanzó con la jornada, quedando alguna actividad pendiente para calibrar en la planificación. (Concientización y progreso).
+• Con margen: 🥀 Marchitó --> Se avanzó con la jornada, quedando alguna actividad pendiente para calibrar en la planificación. (Concientización y progreso).
 
 ### Indicador actividad
 • ✅ Hecha a tiempo: Ejecutada dentro de su bloque horario.
@@ -56,13 +56,13 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 
 • ✖️ No hecha: Actividad planificada que no se ejecutó al cierre del día.
 
-#### Desktop view
+#### Desktop view 
 ```text
 +--------------------------------------------------------------------------------------------------------------+
-|  <                                últimos 40 días                                  >   |  <ultimos 3 meses>  |
-|  🌻🌻🌻🌻🌻(🌻🌻🌻🌻🌻🌻🌻🌻🌻🌱🌻🌻🌻🌻🌱🌻🌻🌻🥀🌻🌻🌻🌻🌻🌻🌻🌱🌻🌻🌻🌻)🌻🌱🥀   |      👑  💎  🪙     |
+|  (                                últimos 40 días                                    )  | (ultimos 3 meses)  |
+|  🌱🌻🌻🌻🌻🌻(🌻🌻🌻🌻🌻🌻🌻🌻🌻🌱🌻🌻🌻🌻🌱🌻🌻🌻🥀🌻🌻🌻🌻🌻🌻🌻🌱🌻🌻🌻🌻)🌻🌱🥀  |     👑  💎  🪙     |
 +--------------------------------------------------------------------------------------------------------------+
-|   dom 1/11  |   lun 2/11  |   mar 3/11  |            miércoles 4/11         | jue 5/11 | vie 6/11 | sáb 7/11 |
+|   dom x/xx  |   lun x/xx  |   mar x/xx  |            miércoles x/xx         | jue x/xx | vie x/xx | sáb x/xx |
 +-------------+-------------+-------------+-----------------------------------+----------+----------+----------+
 | ✅ GOAL (X) | ✅ GOAL (X) | ✅ GOAL (X) | [GOAL (X)]  [GOAL (X)]  (FF)  [+] | GOAL (X) | GOAL (X) | GOAL (X) |
 | ✅ GOAL (X) | ✅ GOAL (X) | ✅ GOAL (X) | [GOAL (X)]  [GOAL (X)]  (MM)  [+] | GOAL (X) | GOAL (X) | GOAL (X) |
@@ -77,7 +77,8 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 #### Mobile view
 ```text
 +------------------------------------+
-| NOVEMBER 🔥 🙂 😐                  |
+|  <       últimos   40  días     >  |
+|  <       ultimos    3  meses    >  |
 +------------------------------------+
 |           wednesday 4/11           |
 +------------------------------------+
@@ -90,13 +91,3 @@ El alcance busca migrar el sistema local hacia una plataforma *cloud* manteniend
 | ✔️ GOAL (X)                        |
 +------------------------------------+
 ```
-
-
-
-
-
-otras variantes:
-
-|  🌻🌻🌻🌻🌻(🌻🌻🌻🌻🌻🌻🌻🌱🌻🌻🌻🌻🌱🌻🌻🥀🌻🌻🌻🌻🌻🌱🌻🌻🌻)🌻🌻🌻 | 👑🪙📝 |
-|  🔥🔥🔥🔥🔥(🔥🔥🔥🔥🔥🔥🔥🙂🔥🔥🔥🔥🙂🔥🔥😐🔥🔥🔥🔥🔥🙂🔥🔥🔥)🔥🔥🔥 | 👑🪙📝 |
-|  🟩🟩🟩🟩🟩(🟩🟩🟩🟩🟩🟩🟩🟨🟩🟩🟩🟩🟩🟩🟩🟥🟩🟩🟩🟩🟩🟨🟩🟩🟩)🟩🟩🟩 | 👑🪙📝 |
